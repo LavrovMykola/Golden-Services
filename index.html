@@ -5,51 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Playfair+Display&family=Roboto+Slab&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <a href="./index1.html">Golden Services</a>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+    <header class="header">
+        <div class="container">
+        <a href="./index1.html" class="logo">Golden Services</a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a href="#" class="nav-list-link">Home</a></li>
+                <li class="nav-list-item">
+                    <a href="#" class="nav-list-link">Services</a></li>
+                <li class="nav-list-item">
+                    <a href="#" class="nav-list-link">Portfolio</a></li>
+                <li class="nav-list-item">
+                    <a href="#" class="nav-list-link">About</a></li>
+                <li class="nav-list-item">
+                    <a href="#" class="nav-list-link">Contact</a></li>
             </ul>
         </nav>
+    </div>
     </header>
-    <main>
-        <h1>Services</h1>
-        <ul>
-            <li>
-                <h4>E-Commerce</h4>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
+    <main class="main">
+        <div class="container">
+        <h1 class="main-title">Services</h1>
+        <ul class="main-list">
+            <li class="main-list-item">
+                <h4 class="main-list-title">E-Commerce</h4>
+                <p class="main-list-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                     posuere odio in tincidunt.</p>
             </li>
-            <li>
-                <h4>Responsive Web</h4>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
+            <li class="main-list-item"> 
+                <h4 class="main-list-title">Responsive Web</h4>
+                <p class="main-list-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                     posuere odio in tincidunt.</p>
             </li>
-            <li>
-                <h4>Web Security</h4>
-                <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
+            <li class="main-list-item">
+                <h4 class="main-list-title">Web Security</h4>
+                <p class="main-list-text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus
                     posuere odio in tincidunt.</p>
             </li>
         </ul>
+    </div>
     </main>
-    <footer>
-        <h1>CONTACT US</h1>
-        <form>
-            <input type='text' name='name' placeholder="YOUR NAME*" required><br>
-            <input type='text' name='email' placeholder="YOUR E-MAIL*" required><br>
-            <input type='text' name='subject' placeholder="SUBJECT"><br>
-            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="YOUR COMMENT"></textarea><br>
-            <button></button>
-<button type="submit">Send Message</button>
+    <footer class="footer">
+        <div class="container">
+        <h2 class="footer-title">CONTACT US</h2>
+        <form class="footer-form"> 
+            <div class="footer-input">
+            <input type='text' name='name' placeholder="YOUR NAME*" required class="form-input"><br>
+            <input type='text' name='email' placeholder="YOUR E-MAIL*" required class="form-input"><br>
+            <input type='text' name='subject' placeholder="SUBJECT" class="form-input"><br>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="YOUR COMMENT" class="form-comment"></textarea><br>
+            </div>
+            <button type="submit" class="form-btm-submit">Send Message</button>
         </form>
+    </div>
     </footer>
 </body>
 
